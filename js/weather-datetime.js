@@ -1,10 +1,3 @@
-const fetch = require('node-fetch');
-
-
-// In test.js
-const { updateDateTime, fetchWeather } = require('../js/weather-datetime');
-
-
 // Constants
 const WEATHER_API_KEY = '70de431cfaa1ad25135c69a0b78139b1';
 const TORONTO_LAT = 43.6532;
