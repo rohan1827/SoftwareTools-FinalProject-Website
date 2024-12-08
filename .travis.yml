@@ -1,7 +1,8 @@
+dist: focal  # Use Ubuntu 20.04 (supports GLIBC 2.27 or higher)
 language: node_js
 
 node_js:
-  - "lts/*"  # Use the latest LTS version of Node.js
+  - "lts/*"
 
 # Install dependencies
 install:
