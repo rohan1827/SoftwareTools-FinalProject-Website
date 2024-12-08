@@ -1,0 +1,27 @@
+# .travis.yml
+language: node_js
+
+node_js:
+  - "lts/*"  # Use the latest LTS version of Node.js
+
+# Install dependencies
+install:
+  - npm install        # Install all dependencies listed in package.json
+  - npm install mocha chai  # Ensure Mocha and Chai are installed
+
+# Run tests
+script:
+  - npm test -- --verbose
+
+# Optional: Add environment variables if needed
+env:
+  global:
+    - NODE_ENV=production
+
+# Optional: Notifications (e.g., to email or Slack)
+notifications:
+  email:
+    recipients:
+      - rohan.aryan2001@gmail.com
+    on_success: never
+    on_failure: always

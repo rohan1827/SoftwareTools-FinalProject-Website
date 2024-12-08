@@ -1,0 +1,22 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "jsdom": "^25.0.1",
+    "mocha": "^11.0.1",
+    "sinon": "^19.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "node-fetch": "^3.3.2"
+  }
+}
